@@ -2,76 +2,74 @@
 # Display name
 title: Ranulfo Bezerra
 
-# Full Name (for SEO)
-first_name: Ranulfo
-last_name: Bezerra
-
 # Is this the primary user of the site?
-superuser: false
+superuser: true
 
-# Role/position
+# Role/position/tagline
 role: Assistant Professor
 
-# Organizations/Affiliations
+# Organizations/Affiliations to show in About widget
 organizations:
-  - name: Tohoku University
-    url: ''
+  - name: Tough Cyberphysical AI Research Center Tohoku University
+    url: http://tcpai.tohoku.ac.jp/en/
 
-# # Short bio (displayed in user profile at end of posts)
-# bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# Short bio (displayed in user profile at end of posts)
+bio: My research interests include multi-robot systems, robotic perception, knowledge acquisition.
 
-# interests:
-#   - Artificial Intelligence
-#   - Computational Linguistics
-#   - Information Retrieval
+# Interests to show in About widget
+interests:
+  - Multi-robot Systems
+  - Robotic Perception
+  - Knowledge Acquisition
 
-# education:
-#   courses:
-#     - course: PhD in Artificial Intelligence
-#       institution: Stanford University
-#       year: 2012
-#     - course: MEng in Artificial Intelligence
-#       institution: Massachusetts Institute of Technology
-#       year: 2009
-#     - course: BSc in Artificial Intelligence
-#       institution: Massachusetts Institute of Technology
-#       year: 2008
+# Education to show in About widget
+education:
+  courses:
+    - course: PhD in Information Sciences
+      institution: Tohoku University
+      year: 2021
+    - course: Msc in Computer Science
+      institution: Federal University of Piaui
+      year: 2018
+    - course: BSc in Computer Science
+      institution: Federal University of Piaui
+      year: 2016
 
-# # Social/Academic Networking
-# # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-# #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-# #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-# social:
-#   - icon: envelope
-#     icon_pack: fas
-#     link: 'mailto:test@example.org'
-#   - icon: twitter
-#     icon_pack: fab
-#     link: https://twitter.com/GeorgeCushen
-#   - icon: google-scholar
-#     icon_pack: ai
-#     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-#   - icon: github
-#     icon_pack: fab
-#     link: https://github.com/gcushen
-# # Link to a PDF of your resume/CV from the About widget.
-# # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# # - icon: cv
-# #   icon_pack: ai
-# #   link: files/cv.pdf
+# Social/Academic Networking
+# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: '/#contact'
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.co.uk/citations?user=PjeazKoAAAAJ
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/ranulfo-bezerra-84354289
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://github.com/ranulfobezerra
 
-# # Enter email to display Gravatar (if Gravatar enabled in Config)
-# email: ''
+# Link to a PDF of your resume/CV.
+# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
+# and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: uploads/resume.pdf
 
-# # Highlight the author in author lists? (true/false)
-# highlight_name: false
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: 'bezerra.ranulfo@rm.is.tohoku.ac.jp'
 
-# # Organizational groups that you belong to (for People widget)
-# #   Set this to `[]` or comment out if you are not using People widget.
+# Highlight the author in author lists? (true/false)
+highlight_name: false
 user_groups:
   - Researchers
 ---
 
-# Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am an Assitant Professor in the Tough Cyberphysical AI Research Center, and currently a faculty member of Human-Robot Informatics Laboratory (TADOLab) at Tohoku University in Sendai, Japan. I received my Ph.D. degree in Information Sciences from Tohoku University, Japan in 2021. I received my M.Sc. and B.Sc. in computer science from the Federal University of Piaui, Brazil in 2018, and 2016 respectively. My research interests are robot intelligence and robotic perception. A member of RSJ and IEEE.
 
-# Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "https://github.com/ranulfobezerra/CV/releases/latest/download/ranulfo-cv.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
