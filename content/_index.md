@@ -29,11 +29,11 @@ sections:
           filters:
             brightness: 1
           parallax: false
-          position: center
+          position: top
           size: cover
           text_color_light: true
       spacing:
-        padding: ['20px', '0', '20px', '0']
+        padding: ['10px', '0', '20px', '0']
       css_class: fullscreen
   
   - block: markdown
@@ -41,7 +41,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        Meet our amazing team [here](./people/).
     design:
       columns: '1'
   
