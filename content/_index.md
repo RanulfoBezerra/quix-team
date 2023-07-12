@@ -25,7 +25,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: coders.jpg
+          filename: onix.jpeg
           filters:
             brightness: 1
           parallax: false
