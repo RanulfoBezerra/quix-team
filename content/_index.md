@@ -16,8 +16,7 @@ sections:
   #       <br>
         
   #       The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-
-    - block: markdown
+  - block: markdown
     content:
       title:
       subtitle: ''
@@ -26,7 +25,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: onix.jpeg
+          filename: coders.jpg
           filters:
             brightness: 1
           parallax: false
@@ -42,7 +41,7 @@ sections:
       title:
       subtitle:
       text: |
-        Meet our amazing team [here](./people/).
+        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
     design:
       columns: '1'
   
@@ -64,6 +63,4 @@ sections:
     design:
       view: list
       columns: '1'
-  
-
 ---
